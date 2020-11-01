@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-Regular.ttf);
+    font-weight: 400;
+}
+body {
+    background-color: #3c6382;
+    font-family: 'Poppins';
+}
+h1 {
+    color: #fff;
+    text-shadow: 0px 1px 2px #eee;;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+p {
+    color: #fff;
+    text-shadow: 0px 1px 2px #eee;;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+#canvas {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
